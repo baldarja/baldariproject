@@ -1,0 +1,320 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link="#0563C1" vlink="#954F72">
+
+<div class=WordSection1>
+
+<p class=MsoNormal>Jordin Baldari </p>
+
+<p class=MsoNormal>Process Book </p>
+
+<p class=MsoNormal><span style='font-family:"Cambria",serif;color:black'>I chose
+to analyze the </span><a
+href="https://www.kaggle.com/annavictoria/speed-dating-experiment"><span
+style='font-family:"Cambria",serif;color:#1155CC'>Speed Dating Experiment</span></a><span
+style='font-family:"Cambria",serif;color:black'> dataset from Kaggle and to
+entitle our project, “Love at First Date”. The dataset gives a great deal of
+information about the participants. This includes age, race, field of study,
+school attended for undergrad, career, interests, income, and goals of
+participating amongst many other factors. The study collected information
+comparing the different pairings throughout the night. This includes how
+satisfied participants were with the people they met, what attributes were most
+important to them while rating, and how they thought they matched up compared
+to other people. </span></p>
+
+<p class=MsoNormal><span style='font-family:"Cambria",serif;color:black'>I am
+interested in this topic because unconventional dating is becoming increasingly
+popular in today’s society with the rise of applications such as Tinder, Coffee
+Meets Bagel, Bumble and the increase in online dating sites such as EHarmony,
+christianmingle.com, etc. Because of this, we are curious to see what
+qualities/characteristics are most important when meeting someone for the first
+time. Many people in these artificially set up dating environments have a checklist
+they go through when meeting people on dating apps or in speed dating
+situations. We are interested to see if such a “checklist” is apparent when
+analyzing the people that were satisfied with the overall experience. </span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Cambria",serif;color:black'>Related
+Work</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Cambria",serif;color:black'>Before
+deciding on visualizations, I looked at some of the work other people had done
+with this dataset. People viewed it from multiple perspectives, such as
+predicting yes or predicting overall satisfaction. I was most interested in
+looking at overall satisfaction.</span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Cambria",serif;color:black'>Cleaning
+the Data</span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Cambria",serif;color:black'>This
+was a huge data set that required a great deal of work before beginning the
+visualizations. I first began by eliminating variables that I did not find to
+be of interest, whether they were redundant or I could not think of a
+visualization involving that variable. On a couple of the speed dating rounds,
+individuals were asked to use a different scoring scale. I also eliminated all
+of these to avoid confusion and to save time manipulating these. I then deleted
+variables and rows that had mostly missing data. These were not useful at all,
+and I did this to further reduce the size. </span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Cambria",serif;color:black'>Questions
+I wanted to Answer: </span></b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><b><span
+style='font-family:"Cambria",serif;color:black'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><span style='font-family:"Cambria",serif;color:black'>What
+were people’s goals for the night and how does this tie in with their
+interests?</span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span style='font-family:"Cambria",serif;
+color:black'>People partake in such events for multiple reasons and I wanted to
+know and understand these reasons before diving deeper?</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><b><span
+style='font-family:"Cambria",serif;color:black'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><span style='font-family:"Cambria",serif;color:black'>What
+were people looking for in a potential match?</span></p>
+
+<p class=MsoListParagraphCxSpMiddle><span style='font-family:"Cambria",serif;
+color:black'>This question gives a good idea of what characteristics people
+most value. I also was curious what people thought the opposite gender was
+looking for.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><b><span
+style='font-family:"Cambria",serif;color:black'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></b><span style='font-family:"Cambria",serif;color:black'>What
+were the results of this experiment?</span></p>
+
+<p class=MsoListParagraphCxSpLast><span style='font-family:"Cambria",serif;
+color:black'>I am curious how satisfied people were with their time spent at
+the speed dating event, if they have been on any dates, and how many matches
+were formed. </span></p>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Cambria",serif;
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><img width=637 height=463
+src="baldari.project2final_files/image001.jpg" align=left hspace=12><b><span
+style='font-family:"Cambria",serif;color:black'>Data Sketches </span></b></p>
+
+<p class=MsoNormal><img width=463 height=337
+src="baldari.project2final_files/image002.jpg" align=left hspace=12><span
+style='font-family:"Cambria",serif;color:black'> </span></p>
+
+<p class=MsoNormal><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b>EDA : ** in all visualizations including gender:
+0=Female, 1=Male</b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><b>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b>Descriptive
+Statistics: </b></p>
+
+<p class=MsoListParagraphCxSpMiddle><b><a
+href="https://public.tableau.com/profile/jordin.baldari#!/vizhome/finalstory/FinalStory"><span
+style='font-weight:normal'>https://public.tableau.com/profile/jordin.baldari#!/vizhome/finalstory/FinalStory</span></a>
+</b></p>
+
+<p class=MsoListParagraphCxSpLast><b>What Are People Expecting Tab </b></p>
+
+<p class=MsoNormal style='margin-left:.25in'><img border=0 width=624
+height=702 id="Picture 2" src="baldari.project2final_files/image003.png"></p>
+
+<p class=MsoNormal><b> </b></p>
+
+<b><span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><b>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b>What
+Do People Want: </b><a
+href="https://public.tableau.com/profile/jordin.baldari#!/vizhome/finalstory/FinalStory">https://public.tableau.com/profile/jordin.baldari#!/vizhome/finalstory/FinalStory</a>
+</p>
+
+<p class=MsoListParagraphCxSpLast><b>What Do People Want Tab</b></p>
+
+<p class=MsoNormal><img border=0 width=624 height=488 id="Picture 8"
+src="baldari.project2final_files/image004.jpg"></p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<b><span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><b>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b>Results:
+<a
+href="https://public.tableau.com/profile/jordin.baldari#!/vizhome/finalstory/FinalStory"><span
+style='font-weight:normal'>https://public.tableau.com/profile/jordin.baldari#!/vizhome/finalstory/FinalStory</span></a>
+</b></p>
+
+<p class=MsoListParagraphCxSpLast><b>How Was the Match Quality Tab </b></p>
+
+<p class=MsoNormal><img border=0 width=624 height=635 id="Picture 7"
+src="baldari.project2final_files/image005.jpg"></p>
+
+<p class=MsoNormal style='margin-left:.25in'><b>&nbsp;</b></p>
+
+<b><span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoListParagraphCxSpFirst><b>Evaluation: </b></p>
+
+<p class=MsoListParagraphCxSpMiddle>First looking at the descriptive
+statistics, the most popular interests/hobbies among both men and women were
+dining, music, and reading. Men were significantly more interested in gaming
+and sports than women, while women were significantly more interested in
+shopping than men. Men were slightly more optimistic about the people they
+would meet, coming in higher for number of people they would be happy to meet,
+number of people they thought would be interested in them, and the number of
+mutual matches they expected to get.  Most people participated in the
+experiment because they wanted a fun night out and to meet new people.  It was
+somewhat important to both men and women that their prospective matches was of
+the same race and religion as them. </p>
+
+<p class=MsoListParagraphCxSpMiddle>&nbsp;</p>
+
+<p class=MsoListParagraphCxSpMiddle>I then further analyzed what people wanted
+in a match. The two most important attributes to men were attractiveness and
+intelligence. Women thought men would place a very large importance on
+attractiveness, much higher than the other attributes. While this was the
+highest ranked attribute for men, it was not as overwhelmingly so as women
+predicted. Perhaps men are not as shallow as women think after all! The three
+most important attributes to women were intelligence, attractiveness, and
+sincerity in decreasing order. They did more evenly distribute their points
+among the attributes than men. I guess it’s true that women want it all and are
+more difficult to please. Men thought women would place the most value on
+attractiveness and fun. Men and women alike ranked themselves very highly in
+all of the different attributes, and both ranked themselves highest for
+sincerity and intelligence. It appears that this was a very confident group of
+people, but I was not surprised by this. It definitely takes confidence to
+participate in a speed dating experiment. I was also curious whether certain careers
+attracted more “yesses”.  An overwhelming majority of the most popular men
+worked in business. There was not this overwhelming majority for the most
+popular women, and it was pretty evenly distributed. The most common career
+fields of the popular women were social sciences/psychology, social work, and
+education. I did not find either of these figures surprising. In the society
+where the study was done men are expected to be the primary bread winner,
+explaining the strong interest in business men. Women are thought of as more of
+the caregivers, explaining the interest in women with less time demanding
+careers.</p>
+
+<p class=MsoListParagraphCxSpMiddle>&nbsp;</p>
+
+<p class=MsoListParagraphCxSpLast>People seem to have been decently satisfied
+with the night ranging from the 5-6 range out of 10. However, many people have
+been on dates and been in contact with their matches. While many people’s goal
+of the night was to just have fun and meet new people, I was surprised by the
+high number of people that have been on dates. Men have been on slightly more
+dates than women, meaning men are going on dates with more than one of their
+matches. This aligns with the fact that men have been calling their matches much
+more than women. I was not surprised that a great deal of the records were one
+sided matches. Even in more authentic dating situations, this seems to often be
+the case. People’s perceptions of themselves did not vary much from before and
+after this experiment. </p>
+
+</div>
+
+</body>
+
+</html>
